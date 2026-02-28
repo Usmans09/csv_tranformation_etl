@@ -6,7 +6,6 @@ This project is a **Python-based ETL (Extract, Transform, Load) pipeline** desig
 
 The pipeline follows a modular design approach to maintain clean architecture and code reusability.
 
----
 
 ## 📂 Project Structure
 DE Project 1/
@@ -41,7 +40,6 @@ DE Project 1/
 └── Python virtual environment
 
 
----
 
 ## ⚙️ ETL Pipeline Workflow
 
@@ -62,7 +60,6 @@ The transformation module performs various data preprocessing operations includi
 - Creates table schema for customer data storage
 - Inserts transformed dataset into database tables
 
----
 
 ## 🛠️ Technologies Used
 
