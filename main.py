@@ -20,7 +20,7 @@ def main():
 
         print("Data transformation completed.")
 
-        connection = postgres_loader.get_postgres_engine()
+        connection = postgres_loader.get_postgres_connection()
 
         if connection is None:
             print("Database connection failed. Stopping pipeline.")

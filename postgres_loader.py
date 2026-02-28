@@ -3,7 +3,7 @@ import os
 import psycopg2
 
 
-def get_postgres_engine():
+def get_postgres_connection():
     try:
         load_dotenv()
         connection = psycopg2.connect(

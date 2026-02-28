@@ -21,6 +21,7 @@ def duplicate_handling(df):
 
 def handle_missing_values(df):
     df = df.copy()
+
     missing_values = df.isnull().sum()
     print(f"Missing values:\n {missing_values}")
 
@@ -40,4 +41,3 @@ def type_conversion(df):
 
     df['subscription_date'] = pd.to_datetime(df['subscription_date'], errors='coerce')
     return df
-
